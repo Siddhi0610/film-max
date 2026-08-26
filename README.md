@@ -1,6 +1,8 @@
 FILM-MAX
 
-FILM-MAX is a centralized production management application designed to bridge operational gaps across all major filmmaking departments. [insert screenshot of homepage]
+FILM-MAX is a centralized production management application designed to bridge operational gaps across all major filmmaking departments.
+
+![alt text](<Screenshot 2026-08-26 203900.png>)
 
 Overview
 
