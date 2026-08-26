@@ -6,18 +6,10 @@ import Benefits from './components/Benefits';
 import './App.css';
 
 function App() {
-  // Smooth scroll handler to Product / Benefits section
-  const handleOpenProduct = () => {
-    const benefitsEl = document.getElementById('benefits');
-    if (benefitsEl) {
-      benefitsEl.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className="app-container">
       {/* Floating Pill Navbar with Product button only (Contact removed) */}
-      <Navbar onOpenProduct={handleOpenProduct} />
+      <Navbar />
 
       {/* Main Landing Page: 3 Divisions */}
       <main>

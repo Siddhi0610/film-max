@@ -25,8 +25,8 @@ export default function Navbar({ onOpenProduct, onOpenContact }) {
         {/* Desktop Navigation Links (Home, Product, Contact Us) */}
         <nav className="navbar-links">
           <a href="#home" className="nav-item active">Home</a>
-          <button onClick={onOpenProduct} className="nav-item btn-link">Product</button>
-          <button onClick={onOpenContact} className="nav-item btn-link">Contact us</button>
+          <button onClick={() => { if (onOpenProduct) onOpenProduct(); }} className="nav-item btn-link">Product</button>
+          <button onClick={() => { if (onOpenContact) onOpenContact(); }} className="nav-item btn-link">Contact us</button>
         </nav>
 
         {/* Action / Sparkle Theme Indicator */}

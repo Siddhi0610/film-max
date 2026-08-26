@@ -139,7 +139,7 @@
 }
 
 .how-row:hover .giant-outline-num {
-  -webkit-text-stroke: 1.5px rgba(233, 90, 53, 0.7);
+  -webkit-text-stroke: 1.5px rgba(4, 92, 90, 0.7);
   transform: scale(1.04);
 }
 

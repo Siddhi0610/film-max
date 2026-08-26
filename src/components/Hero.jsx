@@ -27,13 +27,13 @@ export default function Hero({ onSubscribeClick }) {
               onClick={onSubscribeClick}
               id="hero-subscribe-btn"
             >
-              <span>SUBSCRIBE NOW</span>
+              <span>SUBSCRIBE</span>
               <ArrowRight size={18} className="btn-arrow" />
             </button>
 
             {/* Secondary Action Button */}
             <a href="#how-it-works" className="btn-secondary-pill">
-              SEE HOW IT WORKS
+              KNOW MORE
             </a>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function Hero({ onSubscribeClick }) {
                   <linearGradient id="beamGrad" x1="200" y1="180" x2="380" y2="400" gradientUnits="userSpaceOnUse">
                     <stop stopColor="#FFF" stopOpacity="0.4" />
                     <stop offset="0.6" stopColor="#FFD285" stopOpacity="0.15" />
-                    <stop offset="1" stopColor="#E95A35" stopOpacity="0" />
+                    <stop offset="1" stopColor="#045C5A" stopOpacity="0" />
                   </linearGradient>
                   
                   <linearGradient id="reelGrad" x1="120" y1="120" x2="280" y2="280" gradientUnits="userSpaceOnUse">
@@ -122,27 +122,27 @@ export default function Hero({ onSubscribeClick }) {
 
                   {/* Left Film Spool (Large Top Reel) */}
                   <circle cx="145" cy="125" r="38" fill="url(#reelGrad)" stroke="#FFE17D" strokeWidth="3" />
-                  <circle cx="145" cy="125" r="34" fill="none" stroke="#E95A35" strokeWidth="1.5" strokeDasharray="4 4" />
+                  <circle cx="145" cy="125" r="34" fill="none" stroke="#045C5A" strokeWidth="1.5" strokeDasharray="4 4" />
                   <circle cx="145" cy="125" r="12" fill="#FFE17D" />
                   <circle cx="145" cy="125" r="6" fill="#141111" />
                   {/* Reel Cutout Slots */}
-                  <circle cx="145" cy="104" r="5" fill="#E95A35" />
-                  <circle cx="163" cy="116" r="5" fill="#E95A35" />
-                  <circle cx="163" cy="136" r="5" fill="#E95A35" />
-                  <circle cx="145" cy="146" r="5" fill="#E95A35" />
-                  <circle cx="127" cy="136" r="5" fill="#E95A35" />
-                  <circle cx="127" cy="116" r="5" fill="#E95A35" />
+                  <circle cx="145" cy="104" r="5" fill="#045C5A" />
+                  <circle cx="163" cy="116" r="5" fill="#045C5A" />
+                  <circle cx="163" cy="136" r="5" fill="#045C5A" />
+                  <circle cx="145" cy="146" r="5" fill="#045C5A" />
+                  <circle cx="127" cy="136" r="5" fill="#045C5A" />
+                  <circle cx="127" cy="116" r="5" fill="#045C5A" />
 
                   {/* Right Film Spool (Rear Take-up Reel) */}
                   <circle cx="215" cy="120" r="32" fill="url(#reelGrad)" stroke="#FFE17D" strokeWidth="3" />
                   <circle cx="215" cy="120" r="10" fill="#FFE17D" />
                   <circle cx="215" cy="120" r="5" fill="#141111" />
-                  <circle cx="215" cy="102" r="4" fill="#E95A35" />
-                  <circle cx="230" cy="112" r="4" fill="#E95A35" />
-                  <circle cx="230" cy="128" r="4" fill="#E95A35" />
-                  <circle cx="215" cy="138" r="4" fill="#E95A35" />
-                  <circle cx="200" cy="128" r="4" fill="#E95A35" />
-                  <circle cx="200" cy="112" r="4" fill="#E95A35" />
+                  <circle cx="215" cy="102" r="4" fill="#045C5A" />
+                  <circle cx="230" cy="112" r="4" fill="#045C5A" />
+                  <circle cx="230" cy="128" r="4" fill="#045C5A" />
+                  <circle cx="215" cy="138" r="4" fill="#045C5A" />
+                  <circle cx="200" cy="128" r="4" fill="#045C5A" />
+                  <circle cx="200" cy="112" r="4" fill="#045C5A" />
 
                   {/* Film Strip Threading Path */}
                   <path d="M 175 145 Q 190 155 195 145" stroke="#FFE17D" strokeWidth="2.5" fill="none" />

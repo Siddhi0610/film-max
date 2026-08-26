@@ -94,9 +94,9 @@
 }
 
 .btn-primary-pill:hover {
-  background: var(--accent-coral-light);
+  background: rgba(4, 92, 90, 0.4);
   transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 10px 30px rgba(233, 90, 53, 0.5);
+  box-shadow: 0 10px 30px rgba(4, 92, 90, 0.5);
 }
 
 .btn-arrow {
@@ -178,7 +178,7 @@
 .circle-ambient-glow {
   position: absolute;
   inset: -10%;
-  background: radial-gradient(circle, rgba(233, 90, 53, 0.28) 0%, rgba(233, 90, 53, 0) 70%);
+  background: radial-gradient(circle, rgba(4, 92, 90, 0.28) 0%, rgba(4, 92, 90, 0) 70%);
   filter: blur(32px);
   pointer-events: none;
   z-index: 0;
@@ -196,7 +196,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: radial-gradient(circle at 40% 35%, #FA6B46 0%, #D84D29 55%, #9E3215 100%);
+  background: radial-gradient(circle at 40% 35%, #045C5A 0%, #034E4C 55%, #022F2E 100%);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), inset 0 2px 8px rgba(255, 255, 255, 0.35);
   display: flex;
   align-items: center;

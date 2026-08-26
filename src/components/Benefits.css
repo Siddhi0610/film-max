@@ -74,6 +74,24 @@
   gap: 16px;
 }
 
+/* Giant outline number styling (copied from HowItWorks for consistency) */
+.giant-outline-num {
+  font-size: clamp(72px, 8vw, 104px);
+  font-weight: 800;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.28);
+  font-family: var(--font-main);
+  letter-spacing: -0.04em;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.benefit-row:hover .giant-outline-num {
+  -webkit-text-stroke: 1.5px rgba(4, 92, 90, 0.7);
+  transform: scale(1.04);
+}
+
 .benefit-col-num.align-right {
   justify-content: flex-end;
 }
