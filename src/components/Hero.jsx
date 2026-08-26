@@ -9,16 +9,15 @@ export default function Hero({ onSubscribeClick }) {
         {/* Left Column: Headline, Description & CTA Buttons */}
         <div className="hero-content">
           <h1 className="hero-title">
-            <span className="title-line">Advanced</span>
-            <span className="title-line">cinema</span>
+            <span className="serif-italic">Film-Max</span>
+            
             <span className="title-line title-accent">
-              <span className="serif-italic">for every</span>
+              <span className="geist mono">Cause Your Production deserves a smooth flow</span>
             </span>
-            <span className="title-line">film lover.</span>
           </h1>
 
           <p className="hero-description">
-            A smart cinema platform and FilmMax app that stream 4K masterpieces, curated festival gems, and Dolby Atmos audio—so every story comes alive.
+           A centralised Film Production Management System that connects People , Resources , Schedules and Tasks enabling seamless coordination from script to shoot.
           </p>
 
           <div className="hero-actions">
@@ -36,19 +35,6 @@ export default function Hero({ onSubscribeClick }) {
             <a href="#how-it-works" className="btn-secondary-pill">
               SEE HOW IT WORKS
             </a>
-          </div>
-
-          {/* Social Proof / Trust metrics */}
-          <div className="hero-meta">
-            <div className="meta-item">
-              <Sparkles size={16} className="meta-icon" />
-              <span>4K Ultra HD & Spatial Sound</span>
-            </div>
-            <div className="meta-divider">•</div>
-            <div className="meta-item">
-              <ShieldCheck size={16} className="meta-icon" />
-              <span>100% Ad-Free Guarantee</span>
-            </div>
           </div>
         </div>
 
@@ -174,17 +160,9 @@ export default function Hero({ onSubscribeClick }) {
                 </g>
               </svg>
 
-              {/* Floating Interactive Badge 1 (Dolby Vision) */}
-              <div className="floating-badge badge-top-right">
-                <span className="badge-dot"></span>
-                <span>4K HDR • Atmos</span>
-              </div>
+             
 
-              {/* Floating Interactive Badge 2 (Curated Cinema) */}
-              <div className="floating-badge badge-bottom-left">
-                <Film size={14} className="badge-icon-coral" />
-                <span>Curated Premieres</span>
-              </div>
+              
             </div>
           </div>
         </div>

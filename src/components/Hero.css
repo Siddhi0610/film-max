@@ -40,6 +40,11 @@
   color: #FFFFFF;
 }
 
+/* Make the accented title line thinner */
+.title-line.title-accent {
+  font-weight: 100;
+}
+
 .title-accent .serif-italic {
   font-family: var(--font-serif);
   font-style: italic;

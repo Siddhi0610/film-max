@@ -7,27 +7,36 @@ export default function HowItWorks() {
     {
       id: '01',
       num: '1',
-      title: 'Smart Cinema Ingestion',
-      desc: 'Master-grade encoders process raw 4K camera streams in real-time, matching dynamic color ranges before transmission.',
+      title: 'Dedicated Departments',
+      desc: 'Currently Focusing on 6 Departments: Scripting, Direction, Casting, Inventory, Clothing, Production; Each department gets their own dedicated workspace, dashboards with role-based access control for seamless collaboration.',
       icon: Cpu,
       align: 'right-text' // number on left, text on right as shown in screenshot
     },
     {
       id: '02',
       num: '2',
-      title: 'AI Bitrate Processing',
-      desc: 'On-device AI stream optimization balances bitrates dynamically up to 80 Mbps without a single frame drop.',
+      title: 'Smart Sync',
+      desc: 'Ensuring that all departments are synced with the latest updates, changes, and schedules, reducing miscommunication, delays and dependency on multiple platforms resulting in scattered information delivery.',
       icon: Sparkles,
       align: 'left-text' // text on left, number on right
     },
     {
       id: '03',
       num: '3',
-      title: 'Secure Cloud Vault',
-      desc: 'Advanced streaming pipelines bring private festival premieres and director cuts with lossless audio fidelity.',
+      title: 'Role-Based Access Control',
+      desc: 'Controls dashboard visibility based on production hierarchy and responsibilities. Directors and producers can view relevant departmental dashboards and monitor progress, while department heads manage their own data. Users only access information necessary for their role, ensuring privacy and organized workflow..',
       icon: Cloud,
       align: 'right-text' // number on left, text on right
-    }
+    },
+       
+    {
+      id: '04',
+      num: '4',
+      title: 'Scene Funnelling',
+      desc: 'Aggregates synchronized data from multiple departments into a single, detailed scene view, combining actors, costumes, equipment, location, schedule, and production requirements to provide a, real-time overview of each scene..',
+      icon: Cloud,
+      align: 'left-text' // number on left, text on right
+    },
   ];
 
   return (
@@ -43,7 +52,7 @@ export default function HowItWorks() {
             </h2>
             <div className="how-header-desc-box">
               <p className="section-intro-desc">
-                From studio vault to pristine playback — a seamless ecosystem designed around uncompromised cinematic storytelling.
+               From Smart Sync to Role-Based Access Control - We ensure a smooth ecosystem for your production flow
               </p>
             </div>
           </div>

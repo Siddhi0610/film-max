@@ -8,24 +8,24 @@ export default function Benefits() {
       id: '01',
       num: '01',
       icon: Film,
-      context: 'You and your family stream across 85" OLED displays, home projectors, and mobile devices regularly.',
-      keyBenefit: 'Lossless 4K HDR10+ with native 24fps cinema cadence and studio master bitrates for unmatched visual depth.',
+      context: 'Multiple departments reserve the same cameras, locations, costumes, and crew, creating last-minute conflicts that disrupt the shooting schedule.',
+      keyBenefit: 'The System focuses on Micro-Management & hence is Designed for synchronized departmental bookings for seamless production coordination hence avoiding conflicts and delays.',
       layout: 'left-num' // Number on left, Context in center, Key benefit on right
     },
     {
       id: '02',
       num: '02',
       icon: Volume2,
-      context: 'Your home theater requires studio-grade acoustic depth and pinpoint directional soundstage.',
-      keyBenefit: 'Dolby Atmos 3D audio placement with real-time acoustic calibration and binaural headphone rendering.',
+      context: 'Scripts, actor details, costumes, equipment, locations, and schedules live across separate departments, making complete scene information difficult to access.',
+      keyBenefit: 'Scene funneling consolidates synchronized departmental data into one detailed scene view, delivering every actor, costume, location, schedule, and equipment requirement in context.',
       layout: 'right-num' // Context on left, Key benefit in center, Number on right
     },
     {
       id: '03',
       num: '03',
       icon: Download,
-      context: 'Take your curated film library across long flights, overseas travel, and remote off-grid journeys.',
-      keyBenefit: 'Full offline vault downloads in uncompressed 4K master quality with a 100% ad-free guarantee.',
+      context: 'Directors and producers depend on constant calls and messages to understand departmental progress, turning simple production updates into unnecessary communication overhead..',
+      keyBenefit: 'Role-based dashboards provide hierarchical visibility across departments, allowing authorized leadership to monitor progress without modifying departmental data or disrupting workflows.',
       layout: 'left-num' // Number on left, Context in center, Key benefit on right
     }
   ];
@@ -35,14 +35,14 @@ export default function Benefits() {
       <div className="container">
         {/* Beginning of Div 3: FOR YOU Header matching reference */}
         <div className="benefits-header-wrapper">
-          <div className="section-tag-label">FOR YOU</div>
+          <div className="section-tag-label">FOR WHO</div>
           <h2 className="benefits-hero-title">
             Built for
             <br />
-            <span className="serif-italic">every</span> film lover.
+            <span className="serif-italic">every</span> Production Team.
           </h2>
           <p className="benefits-hero-desc">
-            FilmMax adapts to your unique theater setup, providing master audio and visual fidelity for your specific environment.
+            FilmMax brings every department behind your production together, turning scattered plans, resources, and schedules into one seamless filmmaking workflow.
           </p>
           <div className="benefits-header-divider"></div>
         </div>
