@@ -35,7 +35,7 @@ function Product() {
             <li>Priority support</li>
           </ul>
 
-          <button>Choose Plan</button>
+          <button>Get Started</button>
         </div>
 
       </div>
