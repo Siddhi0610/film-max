@@ -8,13 +8,14 @@ function Product() {
       <div className="pricing-container">
 
         <div className="pricing-card">
-          <h2>Free</h2>
-          <h3>₹0</h3>
+          <h3>Indie Crew</h3>
+          <h1>₹0</h1>
 
           <ul>
-            <li>Basic scene management</li>
-            <li>Basic casting</li>
-            <li>Limited projects</li>
+            <li>Single Active Production Cycle</li>
+            <li>4 Accessible Departments</li>
+            <li>10 Crew Accounts </li>
+           
           </ul>
 
           <button>Get Started</button>
@@ -22,28 +23,15 @@ function Product() {
 
 
         <div className="pricing-card">
-          <h2>Standard</h2>
-          <h3>₹499/month</h3>
+          <h3>Studio Slate</h3>
+          <h1>₹999/month</h1>
 
           <ul>
-            <li>Advanced scene management</li>
-            <li>Casting management</li>
-            <li>Wardrobe management</li>
-            <li>Multiple projects</li>
-          </ul>
-
-          <button>Choose Plan</button>
-        </div>
-
-
-        <div className="pricing-card">
-          <h2>Premium</h2>
-          <h3>₹999/month</h3>
-
-          <ul>
-            <li>Unlimited projects</li>
-            <li>Advanced analytics</li>
-            <li>Team collaboration</li>
+            <li>Unlimited Active Productions</li>
+            <li>6 Accessible Departments</li>
+             <li>Scene Funnelling</li>
+            <li>Role Based Access Control</li>
+            <li>Cross-Department Progress Tracking</li>
             <li>Priority support</li>
           </ul>
 
