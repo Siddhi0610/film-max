@@ -9,7 +9,7 @@ function Product() {
 
         <div className="pricing-card">
           <h3>Indie Crew</h3>
-          <h1>₹0</h1>
+          <h1>₹0/mo</h1>
 
           <ul>
             <li>Single Active Production Cycle</li>
@@ -24,7 +24,7 @@ function Product() {
 
         <div className="pricing-card">
           <h3>Studio Slate</h3>
-          <h1>₹999/month</h1>
+          <h1>₹999/mo</h1>
 
           <ul>
             <li>Unlimited Active Productions</li>
