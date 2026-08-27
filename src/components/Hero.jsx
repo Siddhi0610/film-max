@@ -12,7 +12,7 @@ export default function Hero({ onSubscribeClick }) {
             <span className="serif-italic">Film-Max</span>
             
             <span className="title-line title-accent">
-              <span className="geist mono">Cause Your Production deserves a smooth flow</span>
+            <span className="geist mono">Cause Your Production deserves a smooth flow</span>
             </span>
           </h1>
 

@@ -8,6 +8,7 @@
 /* Page heading */
 
 .product-page h1 {
+  font-family: 'Garamond', serif;
   font-size: clamp(2.2rem, 5vw, 4rem);
   margin-bottom: 20px;
 
