@@ -1,28 +1,28 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import HowItWorks from './components/HowItWorks';
-import Benefits from './components/Benefits';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+
+import Home from "./pages/Home";
+import Product from "./pages/Product";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="app-container">
-      {/* Floating Pill Navbar with Product button only (Contact removed) */}
+    <BrowserRouter basename="/film-max">
+
       <Navbar />
 
-      {/* Main Landing Page: 3 Divisions */}
-      <main>
-        {/* Division 1: Hero Section */}
-        <Hero />
+      <Routes>
 
-        {/* Division 2: How It Works Section */}
-        <HowItWorks />
+        <Route path="/" element={<Home />} />
 
-        {/* Division 3: Benefits Section */}
-        <Benefits />
-      </main>
-    </div>
+        <Route path="/product" element={<Product />} />
+
+        <Route path="/contact" element={<Contact />} />
+
+      </Routes>
+
+    </BrowserRouter>
   );
 }
 

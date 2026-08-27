@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import { Clapperboard, Sparkles, Menu, X } from 'lucide-react';
 import './Navbar.css';
@@ -23,11 +24,11 @@ export default function Navbar({ onOpenProduct, onOpenContact }) {
         </a>
 
         {/* Desktop Navigation Links (Home, Product, Contact Us) */}
-        <nav className="navbar-links">
-          <a href="#home" className="nav-item active">Home</a>
-          <button onClick={() => { if (onOpenProduct) onOpenProduct(); }} className="nav-item btn-link">Product</button>
-          <button onClick={() => { if (onOpenContact) onOpenContact(); }} className="nav-item btn-link">Contact us</button>
-        </nav>
+       <nav className="navbar-links">
+          <Link to="/" className="nav-item active">Home </Link>
+          <Link to="/product" className="nav-item"> Product </Link>
+          <Link to="/contact" className="nav-item"> Contact us </Link>
+       </nav>
 
         {/* Action / Sparkle Theme Indicator */}
         <div className="navbar-actions">

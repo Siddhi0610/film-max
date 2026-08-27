@@ -1,0 +1,34 @@
+.product-page {
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.pricing-card {
+  width: 280px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-card li {
+  margin: 12px 0;
+}
+
+.pricing-card button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
